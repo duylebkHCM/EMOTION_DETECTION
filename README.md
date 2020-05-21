@@ -1,0 +1,40 @@
+# EMOTION_DETECTION
+> Using deeplearning, CNN, OpenCV to recognize emotion on human face
+
+### Dataset
+[FER-2013](https://www.kaggle.com/deadskull7/fer2013)
+
+### Usage
+
+1. Clone project into a folder
+2. Create another folder call fer2013, include: output, hdf5, fer2013
+3. Download dataset and put it inside /fer2013/fer2013
+
+### Build dataset
+Use command
+```
+$ python build_dataset.py
+```
+### Train model
+Create a folder call 'checkpoints'
+
+Use command
+
+```
+$ python train_recognizer.py --model checkpoints
+```
+
+### Evaluate model
+
+Use command
+```
+$ python test_recognizer.py --model checkpoints
+```
+
+### Test on image
+
+Use command
+```
+$ python emotion_image_detector.py --testImage <path_to_test_folder> --model checkpoints
+```
+> Some result
