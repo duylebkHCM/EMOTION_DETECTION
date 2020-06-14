@@ -37,7 +37,7 @@ Use command
 ```
 $ python emotion_image_detector.py --testImage <path_to_test_folder> --model checkpoints
 ```
-> Some result
+> Some results
 
 ![Image](https://github.com/duylebkHCM/EMOTION_DETECTION/blob/master/resultexample/Screenshot%20from%202020-05-20%2022-31-47.png?raw=true)
 ![Image](https://github.com/duylebkHCM/EMOTION_DETECTION/blob/master/resultexample/Screenshot%20from%202020-05-20%2022-32-03.png)
